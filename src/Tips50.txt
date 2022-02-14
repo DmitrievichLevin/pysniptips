@@ -1,0 +1,61 @@
+pos: 00000000000000000000000000000006
+
+***
+
+$Cap$ Creating a sequence of numbers (zero to ten with skips)
+
+range(0,10,2)
+
+#[0, 2, 4, 6, 8]
+
+***
+
+$Cap$ Summing a sequence of numbers (calculating the sum of zero to ten with skips)
+
+l = range(0,10,2)
+
+sum(l)
+
+20
+
+***
+
+$Cap$ Checking whether any element in the sequence is Truthful (checking whether any elements between zero and ten with skips are even)
+
+any(a % 2==0 for a in range(0,10,2))
+
+True
+
+***
+
+$Cap$ Cumulative summing a sequence of numbers (calculating the cumulative sum of zero to ten with skips)
+
+import numpy as np
+
+res = list(np.cumsum(range(0,10,2)))
+
+res
+[ 0,  2,  6, 12, 20]
+
+***
+
+$Cap$ Given each iterable we construct a tuple by adding an index
+
+a = ['Hello', 'world', '!']
+
+list(enumerate(a))
+
+[(0, 'Hello'), (1, 'world'), (2, '!')] 
+
+***
+
+$Cap$ Concatenating iterable to a single string
+
+a = ["python","really", "rocks"]
+
+" ".join(a)
+
+'python really rocks'
+
+***
+
