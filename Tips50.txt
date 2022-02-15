@@ -1,4 +1,12 @@
-pos: 00000000000000000000000000000001
+pos: 00000000000000000000000000000002
+
+***
+
+$Cap$ This is the first of many Python Tips & Tricks to celebrate the start of a new Front-End Developer position! I've created a Snappify Clone in Python and you can check out the code in a public repo "PySnipTips" @ https://github.com/DmitrievichLevin #100Devs
+
+print("Hello Developers! More exciting things to come!")
+
+'Hello Developers'
 
 ***
 

@@ -23,6 +23,7 @@ def construct_tweet():
     formatter = ImageFormatter(
     full=True, style="paraiso-dark", line_numbers=False, font_size=40, line_pad=7.5)
 
+
     # Highlight
     with open('temp_snip.png', 'wb') as f:
         f.write(highlight(code[1], lexer, formatter))

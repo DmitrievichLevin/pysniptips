@@ -3,7 +3,7 @@ import shutil
 
 
 def snip(file_name: str) -> str:
-
+    
     if not isinstance(file_name, str):
 
         raise TypeError("File name must be string.")
