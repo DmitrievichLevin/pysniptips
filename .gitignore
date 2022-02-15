@@ -83,7 +83,7 @@ profile_default/
 ipython_config.py
 
 #sensitive info
-twitter_creds.py
+src/twitter_creds.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
